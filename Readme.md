@@ -1,12 +1,24 @@
-## Ejercicio 3
+# RicardoAlamoM02
 
-Modifica el proyecto de manera que el segundo activity ya no sea simplemente un contador, sino que se convierta en un activity con un FrameLayout que mostrará diversos fragments, siendo al menos estos tres: "Home", "Contador" y "Salir". Asimismo, incorpora una barra de navegación que permita transitar entre los diferentes fragments.
+## Ejercicio 2 de Desarrollo deaplicaciones multiplataformas
 
-Incluyo capturas de pantalla de los tres fragments:
-![Captura 1](img/home.png)
-![Captura 2](img/info.png)
-![Captura 3](img/contador.png)
 
-En esta actividad, he implementado un FrameLayout que alberga cuatro fragments, entre los cuales se puede navegar mediante una barra de navegación. El primer fragment es una pantalla básica de inicio ("Home") con una imagen, el segundo corresponde a la actividad previa (contador), el tercero contiene información acerca de todas las actividades realizadas, y el cuarto, denominado "Salir", cierra la sesión y retorna a la pantalla de inicio de sesión al ser pulsado.
+Crea la segunda pantalla en el mismo proyecto(investiga como). Deberás realizar un lógin tal y como se muestra en el figma, en el caso de que el usuario y contraseña sean admin en el TextView de abajo saldrá “Usuario y contraseña correcta” en caso contrario “Usuario o contraseña incorrecta”. Investigar por vuestra cuenta como iniciar la aplicación en la Activity login. Pista → se configura en el AndroidManifest.xml. Una vez que iniciemos el login deberá pasar a la pantalla del contador pasando el dato del nombre del usuario (aparecerá en la parte baja de la pantalla de contador donde ponía “by nombre_alumno”).(ACTUALIZADO)
 
-Adicionalmente, se han creado nuevos directorios, como "MENU" (donde se ha diseñado un menú con cuatro botones para acceder a todos los fragments), el repositorio "NAVIGATION" que almacena todos los fragments creados, así como nuevos elementos como la imagen de portada y diversos iconos en el directorio "DRAWABLE".
+
+![Captura de Pantalla 1](img/capturaProfesor.png)
+
+Esta es la imagen dada por el por el profesor a traves de la aplicació de figma
+
+ 
+![main_aplication](img/captura.png)
+
+ 
+Y esta es la panatlla de la aplicación hecha por mi, en ella vemos que las 4 partes principlales están presentes, manteniendo proporciones unas con otras.
+
+1. Texto.
+    - utilizo un textView para poner esa palabra, la fuente la saco de figma y este objeto está asociado al borde superior.
+1. TextBox.
+    - utilizo dos TextInputLayout para introducir los datos de usuario y contraseña.
+1. Boton.
+    - El boton al ser pulsado lanza un setOnClickListener que contiene una función que combruebe el usuario y la contraseña, si fueran correctos llama a la segunda ventana poniendo en la parte inferior el nombre de usuario
