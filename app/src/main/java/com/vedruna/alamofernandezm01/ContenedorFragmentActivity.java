@@ -40,6 +40,8 @@ public class ContenedorFragmentActivity extends AppCompatActivity {
                 navController.navigate(R.id.homeFragment);
             } else if (item.getItemId() == R.id.navigation_contador) {
                 navController.navigate(R.id.contadorFragment);
+            } else if (item.getItemId() == R.id.navigation_api){
+                navController.navigate(R.id.apiFragment);
             } else if (item.getItemId() == R.id.navigation_salir){
                 navController.navigate(R.id.salirFragment);
             }

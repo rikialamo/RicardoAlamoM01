@@ -1,12 +1,8 @@
 # RicardoAlamoM01
 
-## Ejercicio 3 de Desarrollo deaplicaciones multiplataformas
+## Ejercicio 4 de Desarrollo deaplicaciones multiplataformas
 
 
-Cambia el proyecto para que el segundo activity en vez de ser el contador sea un activity con un FrameLayout en el que se verán los diferentes fragments (mínimo home, contador, salir) y por otra parte una barra de navegación con la que podamos viajar entre los diferentes fragments.
-
+Añade un Fragment mas que se llame API y sigue el tutorial (para la parte del consumo de la API) proporcionado para consumir un API con android(en esta entrega no tendrás que reflejar los resultado en la interfaz gráfica, solo en el log). Por otro lado crea un microservicio con una sola entidad.
  
 ![main_aplication](img/captura.png)
-
- 
-Esta es la pantalla del contador dentro del fragment con el menu abajo.

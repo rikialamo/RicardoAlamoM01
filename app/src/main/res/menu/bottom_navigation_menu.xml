@@ -10,6 +10,11 @@
         android:icon="@drawable/contador" />
 
     <item
+        android:id="@+id/navigation_api"
+        android:title="Api"
+        android:icon="@drawable/info" />
+
+    <item
         android:id="@+id/navigation_salir"
         android:title="Salir"
         android:icon="@drawable/ic_exit" />
